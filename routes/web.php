@@ -11,5 +11,6 @@
 |
 */
 
+// Rutas respectivas para cargar la página principal y utilizar la función de calculadora
 Route::get('/', 'CalcController@home');
 Route::post('/calc', 'CalcController@calc');
